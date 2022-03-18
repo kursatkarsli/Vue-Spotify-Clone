@@ -257,7 +257,7 @@
           <button class="text-lightest h-8 w-6 hover:text-white mx-5">
             <i
               v-if="pause === false"
-              @click="playSong('../src/assets/song.mp3'), (pause = !pause)"
+              @click="playSong('https://www.youtube.com/watch?v=lYNMQBKDhwg'), (pause = !pause)"
               class="material-icons text-xl"
               >play_circle_outlined</i
             >
